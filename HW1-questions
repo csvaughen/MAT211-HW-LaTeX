@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb,tikz,graphicx}
+
+\title{MAT 211: Homework \#1}
+\date{January 15, 2025}
+\author{C.S. Vaughen}
+\begin{document}
+\maketitle 
+
+\textbf{Types of Reasoning, Sets and Notation}
+
+\begin{enumerate}
+
+\item Define the terms \emph{inductive reasoning} and \emph{deductive reasoning} as explained in the course videos.
+
+
+\item Explain how \emph{math} and \emph{science} are distinguished in the course videos in terms of the types of reasoning fundamental to each field.
+
+\item Define the terms \emph{theorem} and \emph{theory} as provided in the course videos.
+
+\item Consider the set \(S= \{\mathbb{R},\{\mathbb{Q},\mathbb{N}\}\}\).  List all subsets of \(S\).
+
+\item Let \(A\) =  \(\{b,c,d\}\).  How many elements are in the power set of \(A\)? Let \(\mathcal{P}(A)\) represent the power set of \(A\).  List the elements of \(\mathcal{P}(A)\).
+
+
+\item Let \(B = \{a,b\}\).  How many elements are in \(\mathcal{P}(B)\)?  List the elements of \(\mathcal{P}(B)\).
+
+\item Let \(A\) = \(\{b,c,d\}\) and \(B\) = \(\{a,b\}\). List the elements of the Cartesian product \(\mathcal{P}[A] \times \mathcal{P}[B].\)
+
+\item 
+    \begin{enumerate}
+        \item True or False: \( \{1,1,1 \}\in\mathcal{P}(\mathbb{N})\)? Explain. 
+        \item Describe the Cantor Set. Is the Cantor Set an element of \(\mathcal{P}(\mathbb{R}^2)\) ? Note: \(\mathbb{R}^2\) is the Cartesian product of \(\mathbb{R}\) with itself.
+    \end{enumerate}
+
+
+\item Draw and shade a Venn diagram for the set \(A \cap B - C\).
+
+\item Write a set theoretic expression (involving operations such as \(\cap\), \(\cup\) or \(-\)) for the following diagram. 
+
+\begin{center}
+\begin{tikzpicture}
+   
+ % Shade (A ∩ B) U (A ∩ C)
+    \begin{scope}
+       \clip (0,0) circle(1); % restrict to A
+       \fill[gray!40] (1.5,0) circle(1); % shade A intersect B
+       \fill[gray!40] (0.8,-1.1) circle(1); %  shade A intersect C
+    \end{scope}
+
+ % Draw the circles
+    \draw[thick] (0,0) circle(1) node[above left] {\(A\)}; % Circle A with label
+    \draw[thick] (1.5,0) circle(1) node[above right] {\(B\)}; % Circle B with label
+    \draw[thick] (0.8,-1.1) circle(1) node[below right] {\(C\)}; % Circle C with label
+
+    
+\end{tikzpicture}
+\end{center}
+
+\item Briefly describe the resources you used to complete this assignment and your experience with the assignment.  
+    \begin{enumerate}
+    \item Did you use AI? If so, briefly describe how. 
+    \item Did you use the videos on Canvas? If so, were they helpful or not? 
+    \item Did you find any other videos or resources that were particularly useful that were not on Canvas? If so, are there any resources you would recommend to other students in the future?  
+    \item Where any question(s) particularly difficult? Why? How did you resolve any problems or challenges? 
+    \end{enumerate}   
+\end{enumerate}
+
+    
+\end{document}
