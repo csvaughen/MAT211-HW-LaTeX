@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage{amsmath,amsfonts,amssymb,tikz,graphicx,array,tabularx}
+
+\title{MAT 211: Homework \#2}
+\date{January 26, 2025}
+\author{YOUR NAME}
+\begin{document}
+\maketitle 
+
+\textbf{Indexed sets, logic and truth tables, quantifiers}
+
+\begin{enumerate}
+    \item Let $n\in\mathbb{N}$ be a natural number. Let $ A_n = \left( -\frac{1}{n}, 2 - \frac{1}{n} \right)$ be an interval of real numbers.
+ Determine each of the following sets.  Write answers as a set.
+ \[
+ \text{(a)} \bigcup_{n \in \mathbb{N}} A_n \quad \text{and} \quad \text{(b)} \bigcap_{n \in \mathbb{N}} A_n
+ \]
+
+\item Complete the truth table for the statement \( [(p \rightarrow q)\land p]\rightarrow q \) . 
+Name the logical form of the argument in the caption below. Is the argument valid or invalid?
+        
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{\textwidth}{|c|c|X|X|X|}
+     \hline
+     $p$ & $q$ & $p\rightarrow q$ & $(p\rightarrow q)\land q$& $[(p\rightarrow q)\land p]\rightarrow q$\\ \hline
+     - & - & - & - & - \\ \hline
+     - & - & - & - & - \\ \hline
+     - & - & - & - & - \\ \hline
+     - & - & - & - & - \\ \hline
+    \end{tabularx}
+    \caption{Truth table for ---??--- reasoning (fill in name) }
+    \label{tab:placeholder_label}
+\end{table}
+
+\item Complete the truth table for the statement \( [(p \rightarrow q)\land q]\rightarrow p \). 
+Name the logical form of the argument in the caption below.  Is this argument valid or invalid?
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{\textwidth}{|c|c|X|X|X|}
+     \hline
+     $p$ & $q$ & $p\rightarrow q$ & $(p\rightarrow q)\land q$& $[(p\rightarrow q)\land q]\rightarrow p$\\ \hline
+     - & - & - & - & - \\ \hline
+     - & - & - & - & - \\ \hline
+     - & - & - & - & - \\ \hline
+     - & - & - & - & - \\ \hline
+    \end{tabularx}
+    \caption{Truth table for ---??--- (fill in name) }
+    \label{tab:placeholder_label}
+\end{table}
+
+\newpage
+
+\item Consider the following argument.  Write in symbolic form. Is the argument valid or invalid? Why?
+\begin{quote}
+    If you wear a tinfoil hat, then aliens cannot read your mind.\newline 
+    You wear a tinfoil hat.\newline 
+    Therefore, aliens cannot read your mind.\newline 
+\end{quote}
+
+\item Consider the following argument.  Write in symbolic form. Is the argument valid or invalid? Why?
+\begin{quote}
+    If you take the medicine, then you will feel better.\newline 
+    You feel better.\newline 
+    Therefore, you took the medicine.\newline 
+\end{quote}
+
+\item Without changing their meanings, convert each of the following sentences into a sentence having the form ``If $P$, then $Q$.''
+
+    \begin{enumerate}
+        \item For a function to be continuous, it is sufficient that it is differentiable.
+        \item For a function to be continuous, it is necessary that it is integrable.
+        \item An integer is divisible by 8 only if it is divisible by 4.
+        \item Whenever a surface has only one side, it is non-orientable.
+        \item A series converges whenever it converges absolutely.
+        \item A geometric series with ratio $r$ converges if $\lvert r \rvert < 1$.
+        \item A function is integrable provided the function is continuous.
+        \item The discriminant is negative only if the quadratic equation has no real solutions.
+    \end{enumerate}
+
+\item Construct a truth table to show the statements \( \sim (p\rightarrow q)\) and \(p \land \sim q\) are logically equivalent.
+
+\item Write the following as English sentences. State whether they are true or false.
+    \begin{enumerate}    
+        \item $\forall x \in \mathbb{R}, x^2 > 0$
+        \item $\exists a \in \mathbb{R}, \forall x \in \mathbb{R}, ax = x$
+        \item $\forall X \in \mathcal{P}(\mathbb{N}), X \subseteq \mathbb{R}$
+    \end{enumerate}
+
+\newpage
+
+\item Write the following as English sentences. State whether they are true or false.
+      \begin{enumerate}  
+        \item $\forall n \in \mathbb{N}, \exists X \in \mathcal{P}(\mathbb{N}), |X| < n$
+        \item $\exists n \in \mathbb{N}, \forall X \in \mathcal{P}(\mathbb{N}), |X| < n$
+        \item $\forall X \subseteq \mathbb{N}, \exists n \in \mathbb{Z}, |X| = n$
+        \item $\forall n \in \mathbb{Z}, \exists m \in \mathbb{Z}, m = n + 5$
+        \item $\exists m \in \mathbb{Z}, \forall n \in \mathbb{Z}, m = n + 5$
+    \end{enumerate}
+
+\item Briefly describe the resources you used to complete this assignment and your experience with the assignment.  
+    \begin{enumerate}
+    \item Did you use AI? If so, briefly describe how. 
+    \item Did you use the videos on Canvas? If so, were they helpful or not? 
+    \item Did you find any other videos or resources that were particularly useful that were not on Canvas? If so, are there any resources you would recommend to other students in the future?  
+    \item Where any question(s) particularly difficult? Why? How did you resolve any problems or challenges? 
+    \end{enumerate}   
+
+\end{enumerate}
+
+\end{document}
