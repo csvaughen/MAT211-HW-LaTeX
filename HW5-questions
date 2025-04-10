@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{amsmath,amsfonts,amssymb,enumitem,float}
+\usepackage[english]{babel}
+
+\newcommand{\openquote}{\textquotedblleft}
+\newcommand{\closequote}{\textquotedblright}
+
+
+\title{MAT 211: Homework \#5}
+\date{April 2025}
+\author{Your Name Here}
+\begin{document}
+\maketitle 
+
+\textbf{Complete each of the following.}
+
+\begin{enumerate}
+    \item Briefly explain the Curry-Howard Isomorphism.
+    \item Suppose \( 9^{867} \equiv x \pmod{7}\).  Use Fermat's Little Theorem to solve for $x$. 
+    \item Use the method demonstrated in the video on Canvas to determine the day of the week for June 23rd, 1912.  Show all steps. Can you find anything interesting or notable (related to math and computer science) that happened on this particular date?
+    \item Prove that modular congruence defines an equivalence relation on the integers by showing that for any fixed positive integer $n$, the relation \(a \equiv b \pmod{n} \) satisfies the reflexive, symmetric, and transitive properties.
+    \item  Consider the relation $R$ on the set of integers $\mathbb{Z}$ defined by $xRy$ if and only if $x \equiv y \pmod{4}$.
+        \begin{enumerate}
+            \item List all the distinct equivalence classes created by this relation.
+            \item For each equivalence class you identified in part (a), provide a general description of the elements contained in that class, and give three specific examples of integers that belong to that class.
+        \end{enumerate} 
+    \item Let \(A=\{1,2,3\}\) and \(B=\{8,9,10\}\)
+        \begin{enumerate}
+            \item How many relations are there between sets $A$ and $B$?
+            \item How many functions are there between sets $A$ and $B$?
+            \item If set $A$ has cardinality $m$ and set $B$ has cardinality $n$, how many relations and how many functions are possible between sets $A$ and $B$?
+        \end{enumerate}
+
+        \newpage
+        
+    \item  A function is not defined only by a rule, like $sin(x)$, but also by a given domain and co-domain. For the rule $sin(x)$, complete the following table to describe the nature of each corresponding function. 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{cccc}
+       Domain  & Co-domain & One-to-one  & Onto  \\
+      $(-\infty,\infty)$ & $(-\infty,\infty)$ & - & -\\
+      $(-\infty,\infty)$ & [-1,1] & - & - \\
+      $[-\pi/2,\pi/2]$  & $(-\infty,\infty)$ & - & - \\
+      $[-\pi/2,\pi/2]$  & [-1,1] & - & - \\
+    \end{tabular}
+    \caption{Functions depend on domain and co-domain}
+    \label{tab:my_label}
+\end{table}
+
+\end{enumerate}
+    
+
+\end{document}
