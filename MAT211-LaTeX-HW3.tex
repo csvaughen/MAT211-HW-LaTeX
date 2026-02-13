@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{amsmath,amsfonts,amssymb,enumitem}
+\usepackage[english]{babel}
+
+\newcommand{\openquote}{\textquotedblleft}
+\newcommand{\closequote}{\textquotedblright}
+
+
+\title{MAT 211: Homework \#3}
+\date{Spring 2026}
+\author{Your Name}
+\begin{document}
+\maketitle 
+
+\textbf{Combinatorics}
+
+\begin{enumerate}
+    \item Prove $\sum_{k=0}^{n} \binom{n}{k} = 2^n$.  \emph{Hint:} Use either the Binomial Theorem or an argument based on counting subsets.
+    \item Prove $1+2+3+4+ \cdots =\binom{n+1}{2}$.
+    \item The identity $\sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}$ is a special case of Vandermonde's Convolution.  In the following questions, we explore this equality:
+    \begin{enumerate}
+        \item For $n=5$, compute $\sum_{k=0}^{n} \binom{n}{k}^2$ and $\binom{2n}{n}$.
+        \item How does the sum $\sum_{k=0}^{n} \binom{n}{k}^2$ relate to Pascal's triangle?
+        \item Explain why $\binom{n}{k}=\binom{n}{n-k}$ for any values $n\ge k \in \mathbb{N}$.
+        \item Given a collection of 10 things, how many ways can they be divided into 2 categories or groups? Include the possibility that either of the 2 groups can be empty.
+    \end{enumerate}
+    
+    \item Muriel Bristol famously claimed she could tell the difference between cups of tea in which tea had been poured into milk versus cups of tea where milk was poured into tea.  
+    To test her ability to distinguish between them, 10 cups of tea are set out in which 5 cups were prepared with the tea poured first, while 5 cups were prepared with the milk poured first.  Assume Muriel then randomly sorts the cups into two groups of 5 each. 
+    \begin{enumerate}
+        \item What is the probability that she correctly sorts the cups into the 5 cups that were poured tea-first and the 5 cups that were poured milk-first?  
+        \item What is the probability that Muriel correctly identifies exactly 4 of the 5 that were poured milk-first? 
+    \end{enumerate}
+\end{enumerate}
+
+\textbf{Direct and Contrapositive Proofs} 
+
+\smallskip
+Use a direct or contrapositive method of proof for each of the following. 
+
+\begin{enumerate}[resume]
+    \item Prove for all \(n \in \mathbb{N}\), if $n$ is even, then $n^2$ is even.\\
+    
+    \item Prove \( \forall x,y\in\mathbb{R} \) with \(x,y\ge0 \), \(x\le y\) implies \(x^2 \le y^2\).\\
+    
+    \item Let \(u,v,x,y,A,B \in \mathbb{R}\).  Suppose \(0 <A \le 1\) and \( B \ge 1\).
+    Further, suppose \( x,y \le B, 0 \le u <A\) and \(0\le v<A\).  Show \(uy+vx+uv<3AB\).\\
+    
+    \item Let $a,b \in \mathbb{Z}$.  Prove: If $a$ is even or $b$ is odd, then $a(b+3)$ is even.\\
+    
+    \item For $n \in \mathbb{Z}$, if $3n^3$ is even, then $n$ is even.\\
+    
+    \item Show $\forall x\in \mathbb{R}$, $x^3-x>0$ implies $x>-1$. \\
+    
+    \item Suppose $x,y,z \in \mathbb{Z}$ with $x\ne0$.  Show if $x \nmid yz$ then  $x \nmid y$ and $x \nmid z$. \\
+    
+\end{enumerate}
+
+\end{document}
