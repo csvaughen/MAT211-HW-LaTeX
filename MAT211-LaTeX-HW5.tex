@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{amsmath,amsfonts,amssymb,enumitem}
+\usepackage[english]{babel}
+
+\newcommand{\openquote}{\textquotedblleft}
+\newcommand{\closequote}{\textquotedblright}
+\usepackage{listings}
+\usepackage{float}
+
+\title{MAT 211: Homework \#5}
+\date{Spring 2026}
+\author{Your Name}
+
+\begin{document}
+\maketitle 
+
+\begin{enumerate}
+
+
+\item Let $A$ and $B$ be finite sets.  Let \( \mathcal{P}(A), \mathcal{P}(B), \mathcal{P}(A\cup B)\) represent the power sets of $A,B$, and $A \cup B$. 
+            Prove or disprove the following:\\ \( \mathcal{P}(A) \cup \mathcal{P}(B) = \mathcal{P}(A\cup B)\)
+\item Prove by induction that for every integer $n \geq 0$,
+\[
+1+2+2^2+\cdots+2^n = 2^{n+1}-1.
+\]
+
+\item Recall that a \textbf{perfect number} is a positive integer that is equal to the sum of its positive divisors other than itself.
+
+\begin{enumerate}
+    
+    \item List all positive divisors of $496$ other than $496$ itself.
+
+    \item Group these divisors as
+    \[
+    (1+2+2^2+2^3+2^4) + 31(1+2+2^2+2^3).
+    \]
+
+    \item Use the formula from the previous problem to evaluate each geometric sum.
+
+\end{enumerate}
+
+    \item Prove $a\equiv b \pmod n$ implies $a^2 \equiv b^2 \pmod n$. 
+
+    \item Suppose \( 9^{867} \equiv x \pmod{7}\).  Use Fermat's Little Theorem to solve for $x$. 
+    \item Use the method demonstrated in class, in the notes, and in the video on Canvas to determine the day of the week for June 23rd, 1912.  Show all steps. Why is this date significant in the history of math and computer science?
+    \item Prove that modular congruence defines an equivalence relation on the integers by showing that for any fixed positive integer $n$, the relation \(a \equiv b \pmod{n} \) satisfies the reflexive, symmetric, and transitive properties.
+    
+    \newpage
+    
+    \item  Consider the relation $R$ on the set of integers $\mathbb{Z}$ defined by $xRy$ if and only if $x \equiv y \pmod{4}$.
+        \begin{enumerate}
+            \item List all the distinct equivalence classes created by this relation.
+            \item For each equivalence class you identified in part (a), provide a general description of the elements contained in that class, and give three specific examples of integers that belong to that class.
+        \end{enumerate} 
+
+    \item Prove that among any 5 integers, there exist two whose difference is divisible by 4.  Hint: Use the pigeonhole principle and the results of previous two questions.
+    
+    \item Let \(A=\{1,2,3\}\) and \(B=\{8,9,10\}\)
+        \begin{enumerate}
+            \item How many relations are there between sets $A$ and $B$?
+            \item How many functions are there between sets $A$ and $B$?
+            \item If set $A$ has cardinality $m$ and set $B$ has cardinality $n$, how many relations and how many functions are possible between sets $A$ and $B$?
+        \end{enumerate}
+
+        
+    \item  A function is not defined only by a rule, like $sin(x)$, but also by a given domain and co-domain. For the rule $sin(x)$, complete the following table to describe the nature of each corresponding function. 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{cccc}
+       Domain  & Co-domain & One-to-one  & Onto  \\
+      $(-\infty,\infty)$ & $(-\infty,\infty)$ & - & -\\
+      $(-\infty,\infty)$ & [-1,1] & - & - \\
+      $[-\pi/2,\pi/2]$  & $(-\infty,\infty)$ & - & - \\
+      $[-\pi/2,\pi/2]$  & [-1,1] & - & - \\
+    \end{tabular}
+    \caption{Functions depend on domain and co-domain}
+    \label{tab:my_label}
+\end{table}
+  
+\end{enumerate}
+\end{document}
